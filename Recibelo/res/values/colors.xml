@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_principal">#99CCCC</color>
+    <color name="background_header">#79A7DD</color>
+    <color name="background_body">#F6F6F6</color>
+    <color name="background_footer">#79A7DD</color>
+    <color name="background_dialog">#99FFFF</color>
+    
+    <color name="text_label">#333000</color>
+    <color name="text_value">#505050</color>
+    <color name="text_title">#FFFFFF</color>
+    
+    <color name="text_button_common">#FFFFFF</color>
+    <color name="background_button_orange">#FFB900</color>
+    <color name="background_footer_shadow">#61D8C5</color>
+</resources>

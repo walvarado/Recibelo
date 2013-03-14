@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <style name="Layout">
+     	<item name="android:layout_width">fill_parent</item>
+     	<item name="android:layout_height">wrap_content</item>
+     	<item name="android:padding">7dp</item>
+     </style>
+     
+     <!-- Layout Principal -->
+     <style name="Layout.principal">
+         <item name="android:background">@color/background_principal</item>
+         <item name="android:padding">0dp</item>
+     </style>
+     
+     <!-- Background Header -->
+     <style name="Layout.header">
+         <item name="android:background">@color/background_header</item>
+     </style>
+     
+     <!-- Bacgkround Body -->
+     <style name="Layout.body">
+         <item name="android:background">@color/background_body</item>
+         <item name="android:gravity">center</item>
+     </style>
+     
+     <!-- Bacgkround Footer -->
+     <style name="Layout.footer">
+         <item name="android:background">@color/background_footer</item>
+     </style>
+     
+     <!-- Text -->
+     <style name="Text">
+         <item name="android:layout_width">fill_parent</item>
+     	 <item name="android:layout_height">wrap_content</item>
+     </style>
+     
+     <style name="Text.Titulo">
+         <item name="android:textColor">@color/text_title</item>
+     	 <item name="android:textSize">18sp</item>
+     	 <item name="android:textStyle">bold</item>
+     </style>
+     
+     <style name="Text.Label">
+         <item name="android:textColor">@color/text_label</item>
+     	 <item name="android:textSize">16sp</item>
+     	 <item name="android:textStyle">bold</item>
+     </style>
+     
+     <style name="Text.Value">
+         <item name="android:textColor">@color/text_value</item>
+     	 <item name="android:textSize">16sp</item>
+     </style>
+     
+     <!-- Text ListView -->
+     <style name="Text.ItemListView">
+         <item name="android:textColor">@color/text_label</item>
+     	 <item name="android:textSize">20sp</item>
+     </style>
+     
+     <!-- Button -->
+     <style name="RM_Button">
+         <item name="android:textColor">@color/text_button_common</item>
+     	 <item name="android:textSize">25sp</item>
+     	 <item name="android:background">#61D8C5</item>
+     	 <item name="android:layout_width">150sp</item>
+     	 <item name="android:layout_height">45sp</item>
+     	 <item name="android:layout_margin">4sp</item>
+     </style>
+</resources>

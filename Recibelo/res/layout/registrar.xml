@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" style="@style/Layout.principal">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:id ="@+id/linearLayout1"
+        android:layout_width ="fill_parent"
+        android:layout_height ="wrap_content"
+        android:orientation ="vertical"
+        style="@style/Layout.header">
+        
+        <TextView 
+            style="@style/Text.Titulo"
+            android:text="REGISTRO"/>"
+        
+    </LinearLayout>
+    
+    <!-- BODY -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id ="@+id/linearLayout2"
+        android:layout_width ="fill_parent"
+        android:layout_height ="0dip"
+        android:layout_weight ="1"
+        android:orientation ="vertical"
+        style="@style/Layout.body">
+
+            <EditText 
+                android:id="@+id/registrar_nombre_edittext"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="Nombre Completo"/>
+            
+            <EditText 
+                android:id="@+id/registrar_usuario_edittext"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="Usuario"/>
+            
+            <EditText 
+                android:id="@+id/registrar_email_edittext"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="Email"/>
+            
+            <EditText 
+                android:id="@+id/registrar_telefono_edittext"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="Telefono"/>
+            
+            <Button
+                android:id="@+id/registrar_enviar_button"
+                android:layout_width="200sp"
+                android:layout_height="45dp"
+                android:background="#FFB900"
+                android:text="Enviar"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+    </LinearLayout>
+    
+    <!-- FOOTER -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/background_footer_shadow" >
+
+    </LinearLayout>
+
+    	<LinearLayout
+        	android:id ="@+id/linearLayout3"
+        	android:layout_width ="fill_parent"
+        	android:layout_height ="wrap_content"
+        	android:orientation ="vertical"
+        	style="@style/Layout.footer">
+
+        </LinearLayout> >
+    
+
+</LinearLayout>

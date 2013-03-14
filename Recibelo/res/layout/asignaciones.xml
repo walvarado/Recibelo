@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" style="@style/Layout.principal">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:id ="@+id/linearLayout1"
+        android:layout_width ="fill_parent"
+        android:layout_height ="wrap_content"
+        android:orientation ="horizontal"
+        style="@style/Layout.header">
+
+        <TextView 
+            style="@style/Text.Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asignaciones"/>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <!-- BODY -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:minHeight="5sp" 
+        android:orientation="vertical"
+       
+	>
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Text.Value"
+        android:text="Estado"
+        />
+        
+        <ImageView
+        android:id="@+id/asignaciones_estado_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <!-- espacio de creacion -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="5sp" 
+        android:orientation="horizontal"
+	>    
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Text.Value"
+        android:text="Creacion:"
+        />
+        
+        <EditText
+        android:id="@+id/asignaciones_creacion_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="fecha y hora creacion"
+        />
+        </LinearLayout>
+  
+    <!-- espacio de asignacion -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="5sp" 
+        android:orientation="horizontal"
+	>    
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Text.Value"
+        android:text="Asignacion:"
+        />
+        
+        <EditText
+        android:id="@+id/asignaciones_asignacion_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="fecha y hora creacion"
+        />
+        
+        </LinearLayout>
+  <!-- espacio de resuelto -->
+    	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="5sp" 
+        android:orientation="horizontal"
+	>    
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Text.Value"
+        android:text="Resuelto:"
+        />
+        
+        <EditText
+        android:id="@+id/asignaciones_resuelto_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="fecha y hora creacion"
+        />
+        </LinearLayout>
+        
+    	<!-- espacio de comunidad -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="5sp" 
+        android:orientation="horizontal"
+	>    
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Text.Value"
+        android:text="Comunidad:"
+        />
+        
+        <TextView
+        android:id="@+id/asignaciones_comunidad_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="comunidad"
+        />
+        </LinearLayout>
+    <!-- espacio de tipo -->    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="5sp" 
+        android:orientation="horizontal"
+	>    
+        <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Text.Value"
+        android:text="Tipo:"
+        />
+        
+        <TextView
+        android:id="@+id/asignaciones_tipo_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tipo"
+        />
+        
+        </LinearLayout>
+
+        <!-- PRUEBA:para cargar datos desde la clase  -->
+        <Button 
+        android:id="@+id/asignaciones_buttonprueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargar datos"
+        />
+    </LinearLayout>
+    </LinearLayout>
+           
