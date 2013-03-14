@@ -259,8 +259,11 @@ private void animationMenu(){
 	    TranslateAnimation.RELATIVE_TO_SELF, 0.0f, 0, 0.0f, 0, 0.0f);
     }
     private void VerificarPuntos(List<GeoPoint> list) {
+    	if(getCatalogoAsignacion().getAnotacionasignacion() != null)
+    	{
     	int tamano = getCatalogoAsignacion().getAnotacionasignacion().length;
     	for (int i = 0; i < tamano; i++){
+    		System.out.println("Verificando llenado de puntos" + getCatalogoAsignacion().getAnotacionasignacion()[i].getLongitud());
     		list.add(new GeoPoint((int)(getCatalogoAsignacion().getAnotacionasignacion()[i].getLatitud() *1E6), (int)(getCatalogoAsignacion().getAnotacionasignacion()[i].getLongitud() * 1E6)));
     		String titulo = getCatalogoAsignacion().getAnotacionasignacion()[i].getNombreTipoAnotacion() + "=+=" 
     			+ getCatalogoAsignacion().getAnotacionasignacion()[i].getId() + "=+="
@@ -275,6 +278,7 @@ private void animationMenu(){
     			+ getCatalogoAsignacion().getAnotacionasignacion()[i].getArchivo();
     		agregaPuntos(list.get(i), titulo, desc);
     	}
+      }	
     }
 
 	protected void agregaPuntito(int latitud, int longitud) {
