@@ -95,10 +95,10 @@ public final class R {
         public static final int BtnCentrar=0x7f080017;
         public static final int BtnSatelite=0x7f080015;
         public static final int asignaciones_asignacion_edittext=0x7f080003;
-        public static final int asignaciones_buttonprueba=0x7f080007;
         public static final int asignaciones_comunidad_textview=0x7f080005;
         public static final int asignaciones_creacion_edittext=0x7f080002;
         public static final int asignaciones_estado_imageview=0x7f080001;
+        public static final int asignaciones_lista=0x7f080007;
         public static final int asignaciones_resuelto_edittext=0x7f080004;
         public static final int asignaciones_tipo_textview=0x7f080006;
         public static final int balloon_inner_layout=0x7f080022;
@@ -137,11 +137,12 @@ public final class R {
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int asignaciones=0x7f030001;
-        public static final int loginrecibelo=0x7f030002;
-        public static final int mapa=0x7f030003;
-        public static final int recuperar_contrasena=0x7f030004;
-        public static final int registrar=0x7f030005;
-        public static final int window_balloon_overlay=0x7f030006;
+        public static final int listas=0x7f030002;
+        public static final int loginrecibelo=0x7f030003;
+        public static final int mapa=0x7f030004;
+        public static final int recuperar_contrasena=0x7f030005;
+        public static final int registrar=0x7f030006;
+        public static final int window_balloon_overlay=0x7f030007;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;

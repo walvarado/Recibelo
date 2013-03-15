@@ -158,13 +158,6 @@
         
         </LinearLayout>
 
-        <!-- PRUEBA:para cargar datos desde la clase  -->
-        <Button 
-        android:id="@+id/asignaciones_buttonprueba"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cargar datos"
-        />
     </LinearLayout>
     </LinearLayout>
            

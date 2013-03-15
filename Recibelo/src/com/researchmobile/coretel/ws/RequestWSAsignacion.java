@@ -122,8 +122,9 @@ public class RequestWSAsignacion {
 									 
 									 }
 									 catalogo.setAnotacionasignacion(asignacion);
-										return catalogo;	 	
+									 	
 								}
+								return catalogo;
 									
 						}
 				 }

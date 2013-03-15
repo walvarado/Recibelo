@@ -364,6 +364,7 @@ private void animationMenu(){
 			break;
 		case 1:
 			Intent intentAsignaciones = new Intent(Mapa.this, Asignaciones.class);
+			intentAsignaciones.putExtra("catalogo", getCatalogoAsignacion());
 			startActivity(intentAsignaciones);
 			break;
 		case 2:
