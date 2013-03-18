@@ -1,50 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.principal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" style="@style/Layout.principal">
+    android:background="@drawable/values_background"
+    android:orientation="vertical" >
 
     <!-- HEADER -->
-    <LinearLayout
-        android:id ="@+id/linearLayout1"
-        android:layout_width ="fill_parent"
-        android:layout_height ="wrap_content"
-        android:orientation ="horizontal"
-        style="@style/Layout.header">
-
-        <TextView 
-            style="@style/Text.Titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Ingresa tu email y te enviaremos una nueva contraseña"/>
-        
-        <LinearLayout 
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="right">
-        </LinearLayout>
-        
-    </LinearLayout>
     
     <!-- BODY -->
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="5sp" >
+        android:id="@+id/linearLayout2"
+        style="@style/Layout.body"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/patron_de_fondo"
+        android:orientation="vertical" >
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id ="@+id/linearLayout2"
-        android:layout_width ="fill_parent"
-        android:layout_height ="0dip"
-        android:layout_weight ="1"
-        android:orientation ="vertical"
-        style="@style/Layout.body">
-        
+        <TextView
+            style="@style/Text.Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ingresa tu email y te enviaremos una nueva contraseña" />
         
         <EditText 
             android:id="@+id/recuperarcontrasena_recibelo_email_edittext"
@@ -59,17 +39,19 @@
         android:orientation="vertical"
         android:gravity="center">
             
-            <Button 
+            <Button
                 android:id="@+id/recuperarcontrasena_recibelo_recuperar_button"
+                style="@style/RM_Button"
                 android:layout_width="230dp"
-        		android:text="Recuperar" 
-                style="@style/RM_Button"/>
+                android:background="@drawable/boton_background"
+                android:text="Recuperar" />
             
-        <Button 
-                android:id="@+id/recuperarcontrasena_regresar_button"
-                android:layout_width="230dp"
-        		android:text="Volver..." 
-                style="@style/RM_Button"/>
+        <Button
+            android:id="@+id/recuperarcontrasena_regresar_button"
+            style="@style/RM_Button"
+            android:layout_width="230dp"
+            android:background="@drawable/button_background_orange"
+            android:text="Volver..." />
             
         </LinearLayout>
         

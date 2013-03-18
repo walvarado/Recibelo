@@ -1,132 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.principal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" style="@style/Layout.principal">
+    android:background="#000000"
+    android:orientation="vertical" >
 
     <!-- HEADER -->
-    <LinearLayout
-        android:id ="@+id/linearLayout1"
-        android:layout_width ="fill_parent"
-        android:layout_height ="wrap_content"
-        android:orientation ="horizontal"
-        style="@style/Layout.header">
-
-        <TextView 
-            style="@style/Text.Titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Asignaciones"/>
-        
-        <LinearLayout 
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="right">
-        </LinearLayout>
-        
-    </LinearLayout>
     
     <!-- BODY -->
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:minHeight="5sp" 
-        android:orientation="vertical"
-       
-	>
-        <TextView
-        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        style="@style/Text.Value"
-        android:text="Estado"
-        />
-        
-        <ImageView
-        android:id="@+id/asignaciones_estado_imageview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
+        android:background="@drawable/background_asignaciones"
+        android:minHeight="5sp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_iphone_gray" >
+
+            <TextView
+                style="@style/Text.Value"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/asignaciones_estado_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" />
+
+            </LinearLayout>
+
+        </LinearLayout>
     <!-- espacio de creacion -->
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minHeight="5sp" 
-        android:orientation="horizontal"
-	>    
+        android:layout_marginTop="10dp"
+        android:minHeight="5sp"
+        android:orientation="horizontal" >
+    
         <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        style="@style/Text.Value"
-        android:text="Creacion:"
-        />
+            style="@style/Text.Value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Creacion:"
+            android:textColor="#ffffff" />
         
         <EditText
-        android:id="@+id/asignaciones_creacion_edittext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="fecha y hora creacion"
-        />
+            android:id="@+id/asignaciones_creacion_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edittext_gray"
+            android:hint="fecha y hora creacion"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
         </LinearLayout>
   
     <!-- espacio de asignacion -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="5sp" 
-        android:orientation="horizontal"
-	>    
+        android:layout_marginTop="5dp"
+        android:minHeight="5sp"
+        android:orientation="horizontal" >
+
         <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        style="@style/Text.Value"
-        android:text="Asignacion:"
-        />
+            style="@style/Text.Value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Asignacion:"
+            android:textColor="#ffffff" />
         
         <EditText
-        android:id="@+id/asignaciones_asignacion_edittext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="fecha y hora creacion"
-        />
+            android:id="@+id/asignaciones_asignacion_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edittext_gray"
+            android:hint="fecha y hora creacion"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffffff" />
         
         </LinearLayout>
   <!-- espacio de resuelto -->
+
     	<LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="5sp" 
-        android:orientation="horizontal"
-	>    
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="5dp"
+    	    android:minHeight="5sp"
+    	    android:orientation="horizontal" >
+
         <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        style="@style/Text.Value"
-        android:text="Resuelto:"
-        />
+            style="@style/Text.Value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Resuelto:"
+            android:textColor="#ffffff" />
         
         <EditText
-        android:id="@+id/asignaciones_resuelto_edittext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="fecha y hora creacion"
-        />
+            android:id="@+id/asignaciones_resuelto_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edittext_gray"
+            android:hint="fecha y hora creacion"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
         </LinearLayout>
         
     	<!-- espacio de comunidad -->
+
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="5sp" 
-        android:orientation="horizontal"
-	>    
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_textview"
+        android:minHeight="5sp"
+        android:orientation="horizontal" >
+
         <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        style="@style/Text.Value"
-        android:text="Comunidad:"
-        />
+            style="@style/Text.Value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Comunidad:"
+            android:textColor="#000000" />
         
         <TextView
         android:id="@+id/asignaciones_comunidad_textview"
@@ -136,18 +148,21 @@
         />
         </LinearLayout>
     <!-- espacio de tipo -->    
+
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="5sp" 
-        android:orientation="horizontal"
-	>    
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_textview"
+        android:minHeight="5sp"
+        android:orientation="horizontal" >
+
         <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        style="@style/Text.Value"
-        android:text="Tipo:"
-        />
+            style="@style/Text.Value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tipo:"
+            android:textColor="#000000" />
         
         <TextView
         android:id="@+id/asignaciones_tipo_textview"
@@ -159,5 +174,6 @@
         </LinearLayout>
 
     </LinearLayout>
+
     </LinearLayout>
            
