@@ -96,7 +96,7 @@
 		        android:background="@drawable/background_footer_iphone" >
 
 		        <Button
-		            android:id="@+id/button1"
+		            android:id="@+id/BtnCentrar"
 		            android:layout_width="wrap_content"
 		            android:layout_height="wrap_content"
 		            android:layout_alignParentLeft="true"
@@ -107,9 +107,10 @@
 		            android:id="@+id/BtnSatelite"
 		            android:layout_width="wrap_content"
 		            android:layout_height="wrap_content"
-		            android:layout_centerVertical="true"
-		            android:layout_marginLeft="21dp"
-		            android:layout_toRightOf="@+id/button1"
+		            android:layout_alignBaseline="@+id/btnCentrar"
+		            android:layout_alignBottom="@+id/btnCentrar"
+		            android:layout_marginLeft="43dp"
+		            android:layout_toRightOf="@+id/btnCentrar"
 		            android:background="@drawable/button_background_iphone_gray"
 		            android:text="Cambiar bista"
 		            android:textColor="#ffffff" />

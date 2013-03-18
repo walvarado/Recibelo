@@ -116,6 +116,7 @@ public final class R {
         public static final int view=0x7f020059;
     }
     public static final class id {
+        public static final int BtnCentrar=0x7f080017;
         public static final int BtnSatelite=0x7f080018;
         public static final int asignaciones_asignacion_edittext=0x7f080002;
         public static final int asignaciones_comunidad_textview=0x7f080004;
@@ -124,21 +125,21 @@ public final class R {
         public static final int asignaciones_lista=0x7f080007;
         public static final int asignaciones_resuelto_edittext=0x7f080003;
         public static final int asignaciones_tipo_textview=0x7f080005;
-        public static final int balloon_inner_layout=0x7f080023;
-        public static final int balloon_item_snippet=0x7f080026;
-        public static final int balloon_item_title=0x7f080025;
-        public static final int balloon_main_layout=0x7f080028;
-        public static final int balloon_main_layoute=0x7f080024;
-        public static final int button1=0x7f080017;
-        public static final int close_img_button=0x7f080027;
+        public static final int balloon_inner_layout=0x7f080024;
+        public static final int balloon_item_snippet=0x7f080027;
+        public static final int balloon_item_title=0x7f080026;
+        public static final int balloon_main_layout=0x7f080029;
+        public static final int balloon_main_layoute=0x7f080025;
+        public static final int btnCentrar=0x7f080019;
+        public static final int close_img_button=0x7f080028;
         public static final int dividerHeaderBottom=0x7f080015;
-        public static final int edit_img=0x7f080029;
+        public static final int edit_img=0x7f08002a;
         public static final int header=0x7f080012;
         public static final int header_vertical_divider_1=0x7f080013;
         public static final int imageView1=0x7f08000d;
-        public static final int linearLayout1=0x7f08001c;
+        public static final int linearLayout1=0x7f08001d;
         public static final int linearLayout2=0x7f080008;
-        public static final int linearLayout3=0x7f080022;
+        public static final int linearLayout3=0x7f080023;
         public static final int lista=0x7f080010;
         public static final int loginrecibelo_clave_edittext=0x7f080009;
         public static final int loginrecibelo_entrar_button=0x7f08000c;
@@ -147,28 +148,27 @@ public final class R {
         public static final int map=0x7f080016;
         public static final int menuPanel=0x7f08000e;
         public static final int menuViewButton=0x7f080014;
-        public static final int menu_settings=0x7f08002a;
+        public static final int menu_settings=0x7f08002b;
         public static final int menu_title_1=0x7f08000f;
-        public static final int recuperarcontrasena_recibelo_email_edittext=0x7f080019;
-        public static final int recuperarcontrasena_recibelo_recuperar_button=0x7f08001a;
-        public static final int recuperarcontrasena_regresar_button=0x7f08001b;
-        public static final int registrar_email_edittext=0x7f08001f;
-        public static final int registrar_enviar_button=0x7f080021;
-        public static final int registrar_nombre_edittext=0x7f08001d;
-        public static final int registrar_telefono_edittext=0x7f080020;
-        public static final int registrar_usuario_edittext=0x7f08001e;
+        public static final int recuperarcontrasena_recibelo_email_edittext=0x7f08001a;
+        public static final int recuperarcontrasena_recibelo_recuperar_button=0x7f08001b;
+        public static final int recuperarcontrasena_regresar_button=0x7f08001c;
+        public static final int registrar_email_edittext=0x7f080020;
+        public static final int registrar_enviar_button=0x7f080022;
+        public static final int registrar_nombre_edittext=0x7f08001e;
+        public static final int registrar_telefono_edittext=0x7f080021;
+        public static final int registrar_usuario_edittext=0x7f08001f;
         public static final int slidingPanel=0x7f080011;
         public static final int textView1=0x7f080006;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int asignaciones=0x7f030001;
-        public static final int listas=0x7f030002;
-        public static final int loginrecibelo=0x7f030003;
-        public static final int mapa=0x7f030004;
-        public static final int recuperar_contrasena=0x7f030005;
-        public static final int registrar=0x7f030006;
-        public static final int window_balloon_overlay=0x7f030007;
+        public static final int asignaciones=0x7f030000;
+        public static final int listas=0x7f030001;
+        public static final int loginrecibelo=0x7f030002;
+        public static final int mapa=0x7f030003;
+        public static final int recuperar_contrasena=0x7f030004;
+        public static final int registrar=0x7f030005;
+        public static final int window_balloon_overlay=0x7f030006;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;
